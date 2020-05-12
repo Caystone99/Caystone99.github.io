@@ -1,0 +1,255 @@
+a{
+    text-decoration: none;
+}
+body{
+    margin:0;
+    font-family:"Century Gothic"
+}
+
+
+.clearance-form{
+    width:400px;
+    height:auto;
+    text-align:center;
+}
+
+.clearance-input{
+    width:300px;
+    height:40px;
+    padding:2px;
+    border-radius:3px;
+    border:2px solid #060146;
+    margin:2px;
+}
+
+.clearance-btn{
+    margin:20px;
+    width:200px;
+    height:40px;
+    color:#fff;
+    background-color:#060146;
+    cursor:pointer;
+    border-radius:5px;
+    border:0px;
+}
+.clearance-btn:hover{
+    background-color:#fff;
+    color:#060146;
+    border:2px solid #060146;
+    transition-duration:0.8s;
+}
+
+.question_name{
+    border-bottom:3px dotted #060146;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    width:300px;
+    padding:20px;
+    height:20px;
+    background-color:#f3f3f3;
+}
+#question{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.question{
+    text-align: center;
+    padding:30px
+}
+
+.question_paper{
+    background-color:#f3f3f3;
+    padding:20px;
+    text-align:justify;
+    width:600px;
+    height:auto;
+    font-size:12px;
+    border:1px solid #060146;
+    color:#060146;
+    background-image:url("../icon/estam-logo2.png");
+    background-repeat: no-repeat;
+    background-size:90px;
+    background-position-x: right;
+}
+
+#timer{
+    font-size:30px;
+}
+
+#result{
+    width:100%;
+    text-align:center;
+    padding-top:100px;
+}
+
+.result-item{
+    padding:20px;
+    width:400px;
+    height:auto;
+    background-color:rgb(226, 166, 110);
+    border-radius:6px;
+    border:4px solid black;
+}
+
+#time-table{
+    width:100%;
+    padding-top:20px;
+    text-align:center;
+    display:block;
+    height:400px;
+}
+.time-table-area{
+    display:block;
+}   
+.time-table-item{
+    display:inline-grid;
+    text-align:justify;
+    width:300px;
+    height:auto;
+    padding:20px;
+    border-radius:5px;
+    background-color:rgb(226, 166, 110) ;
+    border:2px solid #000;
+}
+
+@media (min-width:300px) and (max-width:450px){
+    
+    .result-item{
+        width:280px;
+        height:auto;
+        padding:20px;
+    }
+    .clearance-form{
+        width:280px;
+        height:auto;
+        text-align:center;
+    }
+    .clearance-input{
+        width:250px;
+        height:30px;
+        padding:2px;
+        border-radius:3px;
+        border:2px solid #060146;
+        margin:2px;
+    }
+
+    
+.question_name{
+    border-bottom:3px dotted #060146;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    width:230px;
+    padding:20px;
+    height:20px;
+    background-color:#f3f3f3;
+}
+#question{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.question{
+    text-align: center;
+    padding:20px
+}
+
+.question_paper{
+    background-color:#f3f3f3;
+    padding:20px;
+    text-align:justify;
+    width:280px;
+    height:auto;
+    font-size:12px;
+    border:1px solid #060146;
+    color:#060146;
+}
+
+#timer{
+    font-size:18px;
+}
+.school-name{
+    font-size:12px;
+}
+
+}
+
+@media (min-width:460px) and (max-width:550px){
+    .result-item{
+        width:400px;
+        height:auto;
+        padding:20px;
+    }
+    .clearance-form{
+        width:400px;
+        height:auto;
+        text-align:center;
+    }
+    .clearance-input{
+        width:350px;
+        height:30px;
+        padding:2px;
+        border-radius:3px;
+        border:2px solid #060146;
+        margin:2px;
+    }
+    .question_name{
+        border-bottom:3px dotted #060146;
+        border-top:0px;
+        border-left:0px;
+        border-right:0px;
+        width:230px;
+        padding:20px;
+        height:20px;
+        background-color:#f3f3f3;
+    }
+    #question{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .question{
+        text-align: center;
+        padding:20px
+    }
+    
+    .question_paper{
+        background-color:#f3f3f3;
+        padding:20px;
+        text-align:justify;
+        width:400px;
+        height:auto;
+        font-size:12px;
+        border:1px solid #060146;
+        color:#060146;
+    }
+    
+}
+
+@media (min-width:620px) and (max-width:1025px){
+    .result-item{
+        width:600px;
+        height:auto;
+        padding:20px;
+        
+    }
+    .clearance-form{
+        width:600px;
+        height:auto;
+        text-align:center;
+    }
+    .clearance-input{
+        width:550px;
+        height:50px;
+        padding:2px;
+        border-radius:3px;
+        border:2px solid #060146;
+        margin:2px;
+    }
+    
+    #timer{
+        font-size:18px;
+    }
+    .school-name{
+        font-size:12px;
+    }
+}

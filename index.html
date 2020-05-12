@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ESTAM PORTAL</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <div id="banner">  
+        <div class="banner-txt" id="screen-btn-hold">
+            <span class="banner-lead">ESTAM UNIVERSITY</span>
+            <p></p>
+            
+            <button class="banner-btn" onclick="open_modal()">REGISTER</button> &nbsp; &nbsp;
+            <button class="banner-btn" onclick="open_modal_2()">EXAM PORTAL</button>
+        </div>
+
+        
+    <div id="screen-modal">
+        <center>
+        <form id="modal-form" action="php/include.php" method="post">
+            <button onclick="close_modal()" type="reset" class="form-close"><i class="far fa-times-circle fa-2x"></i></button><br><br>
+            <input type="text" name="full_name" class="form-input" placeholder="Your Full Name"/><br>
+            <input type="text" name="matric_num" class="form-input" placeholder="Your Matriculation Number"/><br/>
+            <select class="form-select" name="dept">
+                <option>Department</option>
+                <option name="dept" value="Accounting">Accounting</option>
+                <option name="dept" value="Business Administration">Business Administration</option>
+                <option name="dept" value="Computer Science">Computer Science</option>
+                <option name="dept" value="Enviromental Science">Environmental Science</option>
+                <option name="dept" value="Mass Communication">Mass Communication</option>
+                <option name="dept" value="International Relation">International Relation</option>
+                <option name="dept" value="Human Resources">Human Resources</option>
+            </select><br>
+
+            <select class="form-select"  name="lvl">
+                <option>Level</option>
+                <option name="lvl" value="100 Level">100 Level</option>
+                <option name="lvl" value="200 Level">200 Level</option>
+                <option name="lvl" value="300 Level">300 Level</option>
+            </select><br>
+
+            <input type="email" class="form-input" name="email" placeholder="Your Email Address"/><br>
+            <input type="text" class="form-input" name="phone_num" placeholder="Your Phone Number"/><br>
+            <input type="password"  class="form-input" name="pword" placeholder="Password" required><br>
+            <input type="password"  class="form-input" name="con_pword" placeholder="Confirm Password" required><br>
+            
+            <button type="submit" class="form-btn">Submit</button>
+        </form>
+
+        <form id="modal-form-2" action="php/include.php" method="post">
+                <button  onclick="close_modal_2()" class="form-close"><i class="far fa-times-circle fa-2x"></i></button><br><br>
+            <input type="text"  class="form-input" name="matric_num" placeholder="Matriculation Number" required>
+            <input type="password"  class="form-input" name="pword" placeholder="Password" required><br>
+            <button type="submit" class="form-btn">Submit</button>
+        </form>
+    </center>
+</div>
+    </div>
+    <!--BANNER END-->
+
+
+    <div id="we-do">
+        <div class="we-do-more">
+
+            <h4 class="we-txt">EXAM INSTRUCTIONS</h4>
+            <p class="we-item">1. Click on Register to get your clearance details.</p>
+            <p class="we-item">2. Click Exam portal to access the exam page.</p>
+            <p class="we-item">3. Look for your level and department and click on the active paper.</p>
+            <p class="we-item">4. Ensure you access the active paper a few minutes before the scheduled exam start time.</p>
+            <p class="we-item">5. Ones the paper starts, enter your full name and answer all questions</p>
+            <p class="we-item">6. A timer will be displayed on the screen to ensure we stick to time.</p>
+            <p class="we-item">7. The question paper expires the moment the timer runs out, so, ensure you are fast and efficient.</p>
+            <p class="we-item">8. Ones you've submited your paper, your score will be displayed immediately.</p>
+            <p class="we-item">9. Cheers and Best of Luck.</p>
+        </div>
+    </div>
+
+
+
+    <div id="footer">
+        <div class="footer-item">
+            
+            <form action="mailto:estam@gmail.com" method="post">
+                <input type="email" class="news" placeholder="Get Latest Contents and Updates"><button type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+            </form>
+            
+
+            <p>&copy; ESTAM UNIVERSITY - All rights reserved 2020</p>
+            <div id="social">
+                    <a href="#" class="social-item"><i class="fab fa-facebook-messenger "></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-instagram "></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-twitter "></i></a>
+                    <a href="#" class="social-item"><i class="fa fa-envelope"></i></a>
+                    <a href="#" class="social-item"><i class="fa fa-mobile-alt"></i></a>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+<script src="fontawesome/js/all.js"></script>
+</html>
